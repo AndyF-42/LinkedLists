@@ -2,6 +2,9 @@
 //Date: 10/30/20
 //Header for Node class
 
+#include "Student.h"
+#include <cstddef>
+
 class Node {
  public:
   Node* getNext(); //returns the stored Node pointer 
@@ -12,6 +15,6 @@ class Node {
   ~Node(); //destructor
 
  private:
-  Student* student;
-  Node* next;
+  Student* student; //student pointer (value of node)
+  Node* next; //pointer to the next node  
 };

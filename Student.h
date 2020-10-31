@@ -9,7 +9,7 @@ class Student {
   int getID();
   float getGPA();
 
-  Student();
+  Student(char* newFirst, char* newLast, int newID, float newGPA);
   ~Student();
   
  private:
@@ -17,4 +17,4 @@ class Student {
   char last[20];
   int id;
   float gpa;
-}
+};
